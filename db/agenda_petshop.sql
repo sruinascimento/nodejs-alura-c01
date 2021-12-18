@@ -7,5 +7,8 @@ CREATE TABLE atendimentos (
     cliente VARCHAR(50) NOT NULL,
     pet VARCHAR(20),
     servico VARCHAR(20) NOT NULL,
-    observacoes TEXT 
+    observacoes TEXT,
+    status VARCHAR(50) NOT NULL,
+    data DATETIME NOT NULL,
+    dataCriacao DATETIME NOT NULL
 );
